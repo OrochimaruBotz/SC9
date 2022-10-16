@@ -3383,7 +3383,7 @@ HumanzBotzMD
                             }, {
                                 callButton: {
                                     displayText: 'Contact Owner',
-                                    phoneNumber: '+62 888-0494-7282
+                                    phoneNumber: '+62 888-0494-7282'
                                 }
                             }, {
                                 quickReplyButton: {
