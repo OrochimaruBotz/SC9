@@ -534,19 +534,22 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
             break
 	    case 'donasi': case 'sewabot': case 'sewa': case 'buypremium': case 'donate': {
   goblok = fs.readFileSync('./video/ga.jpg')
-                xavior.sendMessage(m.chat, { image: goblok, caption: `┌──⭓ *Sewa Bot*
+                xavior.sendMessage(m.chat, { image: goblok, caption: `┌──⭓ *Sewa Bot*
+
 │⭔ 1 Minggu :10k
 │⭔ 1 Bulan :15k
 │⭔ Permanen :20k
 └───────⭓
-┌──⭓ *Jadi Bot*
+┌──⭓ *Jadi Bot*
+
 │⭔ Jasa Jadi Bot: 30k
-│⭔ Jadi Owner AzzBot: 15k
+│⭔ Jadi Owner HumanzBot: 15k
 └───────⭓
-┌──⭓ *Harga Sc Bot Wa*
+┌──⭓ *Harga Sc Bot Wa*
+
 │⭔ Versi 1 :20k
 │⭔ Versi 2 :25k
-│⭔ Free :Di Yt MBY•OFFICIAL
+│⭔ Free :Di Github Humanz
 └───────⭓` }, { quoted: m })
             }
             case 'subscribe':{
@@ -567,7 +570,7 @@ xavior.sendMessage(m.chat, {audio: goblok, mimetype:'audio/mpeg', ptt:true }, {q
             case 'session': {
             if (!isCreator) throw mess.owner
             ana = fs.readFileSync('./Xavior.json')
-              m.reply('*Woe Bre Minimal Subscribe Yt MBY•OFFICIAL Lah*')
+              m.reply('*Woe Bre Minimal Follow Github HumanzLah*')
             xavior.sendMessage(m.chat, {document: ana, mimetype: 'application/json', fileName: `Xavior.json`}, {quoted:m})}
             break
             
@@ -1246,7 +1249,7 @@ break
                             }, {
                                 callButton: {
                                     displayText: 'Number Phone Owner',
-                                    phoneNumber: '+62 815-1148-0762'
+                                    phoneNumber: '+62 888-0494-7282'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -1646,7 +1649,7 @@ break
 ⭔ *Duration* : 24Hours
 ⭔ *Viewers* : 14M views
 ⭔ *Upload* At : 1 years ago
-⭔ *Author* : MBY•OFFICIAL 
+⭔ *Author* : Humanz
 ⭔ *Channel* : ${anu.author.url}
 ⭔ *Description* : Gak Subrek Bot Mati!
 ⭔ *Url* : ${anu.url}`,
@@ -2815,13 +2818,13 @@ let capt = `⭔ Title: ${judul}
             case 'command':{
 let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                 listMessage :{
-                    title: `AzzBot Siap membantu anda\n`,
+                    title: `HumanzBotzMD Siap membantu anda\n`,
                     description: "*Klik tombol dibawah*",
                     buttonText: "Menu",
                     footerText: "Note:JANGAN SPAM!!",
                     listType: "SINGLE_SELECT",
                     sections: [{
-								"title": "🤖Bot By MBY•OFFICIAL🤖",
+								"title": "🤖Bot By Humanz🤖",
 								"rows": [
 									{
 										"title": "▪️Tutor Pasang Bot",
@@ -2923,7 +2926,7 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
 								"title": "Owner 👨‍💻",
 								"rows": [
 									{
-										"title": "MBY•OFFICIAL",
+										"title": "Humanz",
 										"rowId": `${prefix}owner`
 									
 									}]
@@ -2936,17 +2939,17 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
             break
 
             
-            case 'okay': { m.reply('Subrek lah Yt MBY•OFFICIAL')} break
+            case 'okay': { m.reply('Follow Akun Github Humanz Dong:)')} break
             
              case 'menu': {
             anu = `── *Welcome* ──
-Hai Saya Bot Wa
+Hai Saya HumanzBotzMD
 Siap Melayani Anda
 Ketik (.menu) Untuk Mengakses
 Mau Script? Bisa Chat Owner
 Thanks Sudah Menggunakan
-AzzBot-MD Jangan Lupa Subscribe
-Chanel : https://youtube.com/channel/UCmUhiytK9WMYaOFgdOho_2g
+HumanzBotzMD Jangan Lupa Subscribe
+Github : https://github.com/OrochimaruBotz
 Nih Musik Buat Menghibur
 ───────⭓`
             let btn = [{
@@ -2978,8 +2981,8 @@ break
  case 'allmenu': {
                 anu = `
 
-┌──⭓ *𝘈𝘻𝘻𝘉𝘰𝘵•𝘔𝘋*
-│⭔ 𝘖𝘸𝘯𝘦𝘳:𝗬𝗮𝗵𝘆𝗮 
+┌──⭓ *HumanzBotz𝘔𝘋*
+│⭔ 𝘖𝘸𝘯𝘦𝘳:Humanz
 │⭔ 𝘝𝘦𝘳𝘴𝘪𝘰𝘯: 4.0
 │⭔ 𝘙𝘶𝘯𝘝𝘪𝘢:𝘏𝘦𝘳𝘰𝘬𝘶
 └───────⭓
@@ -3303,17 +3306,17 @@ break
 │
 └───────⭓
 
-𝐀𝐳𝐳𝐁𝐨𝐭•𝐌𝐃
-𝐁𝐲:𝐘𝐚𝐡𝐲𝐚𝐆𝐚𝐧𝐳𝐳|𝘷𝘦𝘳𝘴𝘪𝘰𝘯 4.0`
+HumanzBotzMD
+𝐁𝐲:humanz|𝘷𝘦𝘳𝘴𝘪𝘰𝘯 4.0`
                  let btn = [{
                                 urlButton: {
                                     displayText: 'Script',
-                                    url: 'https://youtube.com/channel/UCmUhiytK9WMYaOFgdOho_2g'
+                                    url: 'https://github.com/'
                                 }
                             }, {
                                 callButton: {
                                     displayText: 'Contact Owner',
-                                    phoneNumber: '+62 815-1148-0762'
+                                    phoneNumber: '+62 888-0494-7282'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -3380,7 +3383,7 @@ break
                             }, {
                                 callButton: {
                                     displayText: 'Contact Owner',
-                                    phoneNumber: '+62 815-1148-0762'
+                                    phoneNumber: '+62 888-0494-7282
                                 }
                             }, {
                                 quickReplyButton: {
@@ -3435,7 +3438,7 @@ case 'webzone': {
                             }, {
                                 callButton: {
                                     displayText: 'Contact Owner',
-                                    phoneNumber: '+62 815-1148-0762'
+                                    phoneNumber: '+62 888-0494-7282'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -3496,7 +3499,7 @@ case 'webzone': {
                             }, {
                                 callButton: {
                                     displayText: 'Contact Owner',
-                                    phoneNumber: '+62 815-1148-0762'
+                                    phoneNumber: '+62 888-0494-7282'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -3552,7 +3555,7 @@ case 'webzone': {
                             }, {
                                 callButton: {
                                     displayText: 'Contact Owner',
-                                    phoneNumber: '+62 815-1148-0762'
+                                    phoneNumber: '+62 888-0494-7282'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -3616,7 +3619,7 @@ case 'webzone': {
                             }, {
                                 callButton: {
                                     displayText: 'Contact Owner',
-                                    phoneNumber: '+62 815-1148-0762'
+                                    phoneNumber: '+62 888-0494-7282'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -3694,7 +3697,7 @@ case 'webzone': {
                             }, {
                                 callButton: {
                                     displayText: 'Contact Owner',
-                                    phoneNumber: '+62 815-1148-0762'
+                                    phoneNumber: '+62 888-0494-7282'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -3753,7 +3756,7 @@ case 'webzone': {
                             }, {
                                 callButton: {
                                     displayText: 'Contact Owner',
-                                    phoneNumber: '+62 815-1148-0762'
+                                    phoneNumber: '+62 888-0494-7282'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -3809,7 +3812,7 @@ case 'webzone': {
                             }, {
                                 callButton: {
                                     displayText: 'Contact Owner',
-                                    phoneNumber: '+62 815-1148-0762'
+                                    phoneNumber: '+62 888-0494-7282'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -3870,7 +3873,7 @@ case 'webzone': {
                             }, {
                                 callButton: {
                                     displayText: 'Contact Owner',
-                                    phoneNumber: '+62 815-1148-0762'
+                                    phoneNumber: '+62 888-0494-7282'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -3947,7 +3950,7 @@ case 'webzone': {
                             }, {
                                 callButton: {
                                     displayText: 'Contact Owner',
-                                    phoneNumber: '+62 815-1148-0762'
+                                    phoneNumber: '+62 888-0494-7282'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -4012,7 +4015,7 @@ case 'webzone': {
                             }, {
                                 callButton: {
                                     displayText: 'Contact Owner',
-                                    phoneNumber: '+62 815-1148-0762'
+                                    phoneNumber: '+62 888-0494-7282'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -4069,7 +4072,7 @@ case 'webzone': {
                             }, {
                                 callButton: {
                                     displayText: 'Contact Owner',
-                                    phoneNumber: '+62 815-1148-0762'
+                                    phoneNumber: '+62 888-0494-7282'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -4124,7 +4127,7 @@ case 'webzone': {
                             }, {
                                 callButton: {
                                     displayText: 'Contact Owner',
-                                    phoneNumber: '+62 815-1148-0762'
+                                    phoneNumber: '+62 888-0494-7282'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -4174,7 +4177,7 @@ case 'webzone': {
                             }, {
                                 callButton: {
                                     displayText: 'Contact Owner',
-                                    phoneNumber: '+62 815-1148-0762'
+                                    phoneNumber: '+62 888-0494-72822'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -4225,7 +4228,7 @@ case 'webzone': {
                             }, {
                                 callButton: {
                                     displayText: 'Contact Owner',
-                                    phoneNumber: '+62 815-1148-0762'
+                                    phoneNumber: '+62 888-0494-7282'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -4283,7 +4286,7 @@ case 'webzone': {
                             }, {
                                 callButton: {
                                     displayText: 'Contact Owner',
-                                    phoneNumber: '+62 815-1148-0762'
+                                    phoneNumber: '+62 888-0494-7282'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -4344,7 +4347,7 @@ case 'webzone': {
                             }, {
                                 callButton: {
                                     displayText: 'Contact Owner',
-                                    phoneNumber: '+62 815-1148-0762'
+                                    phoneNumber: '+62 888-0494-7282'
                                 }
                             }, {
                                 quickReplyButton: {
